@@ -14,9 +14,11 @@ def caesar_chiper(text, shift):
 def caesar_decipher(text, shift):
   return caesar_chiper(text, -shift)
 
-# Contoh penggunaan
-plaintext = input("Masukan huruf/abjad sebanyak 6 karakter: ")
-shift_value = int(input("Masukkan angka geser: "))
+plaintext = input("Enter letters/alphabets of 6 characters: ")
+shift_value = int(input("Enter a sliding number: "))
 
-print("chipertext : " + caesar_chiper(plaintext, shift_value))
-print("plaintext : " + caesar_chiper(plaintext, shift_value))
+encrypted_text = caesar_chiper(plaintext, shift_value)
+decrypted_text = caesar_decipher(encrypted_text, shift_value)
+
+print("chipertext : " + encrypted_text)
+print("plaintext : " + decrypted_text)
