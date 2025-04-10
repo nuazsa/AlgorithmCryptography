@@ -15,3 +15,13 @@
      >  In this variation, instead of swiping the letter in front, we spell out the letters behind in the alphabet
      
     ![ilustration](https://github.com/nuazsa/AlgorithmCryptography/blob/main/img/caesar_cipher_reverse.png)
+
+3. Shift Caesar Double
+     >  In this method, two locks are used, where two shifts are applied to the message, usually with using different locks.
+     
+    ![ilustration](https://github.com/nuazsa/AlgorithmCryptography/blob/main/img/caesar_cipher_double.png)
+
+4. Shift Caesar Random
+     >   Caesarean Substitution with Random Substitution is a variant of the Caesarean temple in which instead of substituting each letter with a fixed shift (e.g., +3 or +5), each letter is substituted with another letter that is determined by a substitution key that is generated in a random manner.
+     
+    ![ilustration](https://github.com/nuazsa/AlgorithmCryptography/blob/main/img/caesar_cipher_random.png)
